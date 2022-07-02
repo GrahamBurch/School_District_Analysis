@@ -13,4 +13,11 @@ This analysis required us to compare these metrics with and without the data for
 
 Below are displayed the results taken from the entire student population:
 
+![""](Resources/Old_district_summary.PNG)
+
+And here are the results with Thomas High School 9th graders removed:
+
 ![""](Resources/Cleaned_district_summary.PNG)
+
+### We can discuss in more detail how each metric was affected by the change in data.
+
