@@ -12,6 +12,5 @@ This analysis required us to compare these metrics with and without the data for
 ## Results
 
 Below are displayed the results taken from the entire student population:
-(Resources/Cleaned_district_summary.PNG)
 
-
+![""](Resources/Cleaned_district_summary.PNG)
