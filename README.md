@@ -39,7 +39,51 @@ And here are the overall results with Thomas High School 9th graders removed:
   - The Percent Overall Passing dropped from 90.95% to 90.63%.
  
  ##### Top Schools
- ![""]()
- ![""]()
+ ![""](Resources/top_schools_old.JPG)
+ ![""](Resources/top_schools_cleaned.JPG)
+ 
+ - Thomas High School remained in second place of the top performing schools in the district.
+ - The Average Math Score, Average Reading Score, Percent Passing Math, Percent Passing Reading, and Percent Passing Overall
+slightly dropped between the original analysis and the cleaned analysis.
+
+##### Math Scores by Grade
+![""](Resources/math_scores_by_grade_old.JPG)
+![""](Resources/math_scores_by_grade_cleaned.JPG)
+
+ - - The math scores did not change in the 10th-12th grade columns, however in the 9th grade column the scores 
+have replaced by "NaN".
+
+##### Reading Scores by Grade
+![""](Resources/reading_scores_by_grade_old.JPG)
+![""](Resources/reading_scores_by_grade_cleaned.JPG)
+
+- The reading scores did not change in the 10th-12th grade columns, however in the 9th grade column the scores 
+have been replaced by "NaN" like the math scores.
+
+##### Scores by School Spending
+![""](Resources/scores_by_school_spending_old.JPG)
+![""](Resources/scores_by_school_spending_cleaned.JPG)
+
+ - There was no difference in the original versus cleaned analysis.
+
+##### Scores by School Size
+![""](Resources/scores_by_school_size_old.JPG)
+![""](Resources/scores_by_school_size_cleaned.JPG)
+
+- There was no difference in the original versus cleaned analysis.
+
+##### Scores by School Type
+![""](Resources/type_summary_old.JPG)
+![""](Resources/type_summary_cleaned.JPG)
+
+- There was no difference in the original versus cleaned analysis. 
+
+## Summary
+
+1. There was a slight drop in "Average Math Score", "Percent Passing Math", "Percent Passing Reading" and "Overall Passing Percentage" in the District Summary but the rest of the metrics remained the same.
+2. The School Summary Analysis had a drop in Average Math Score, Percent Passing Math, Percent Passing Reading and Overall Passing Percentage while the reading score had a slight increase.
+3. Thomas High School's rank among the top 5 performing schools was unaffected, but its Average Math, Average Reading, Percent Passing Math, Percent Passing Reading and Overall Passing Percentage all slightly decreased.
+4. Rather than deleting rows from the District analysis, now that analysis contains values of NaN in every cell that should contain a math or reading score from a 9th grader at Thomas High School.  
+
 
 
