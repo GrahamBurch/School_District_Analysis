@@ -11,13 +11,23 @@ This analysis required us to compare these metrics with and without the data for
 
 ## Results
 
-Below are displayed the results taken from the entire student population:
+Below are displayed the overall results taken from the entire student population:
 
 ![""](Resources/Old_district_summary.PNG)
 
-And here are the results with Thomas High School 9th graders removed:
+And here are the overall results with Thomas High School 9th graders removed:
 
 ![""](Resources/Cleaned_district_summary.PNG)
 
-### We can discuss in more detail how each metric was affected by the change in data.
+#### We can discuss in more detail how each metric was affected by the change in data.
+
+  - For the District Summary, Total Schools, Total Students and Total Budget are unaffected because we chose not to delete the values from Thomas High School 9th graders and instead replace them with NaN. If the entire row for a Thomas High School 9th graders were deleted instead of replacing just their math and reading scores with a NaN value, those three Totals **would** have been affected because we would be deleting those students completely from the list. 
+
+      > Average Math Score and Average Reading Score are slightly affected by removing those values, changing from 78.9 and 81.87 respectively to 78.9 and 81.9 respectively.
+
+      > Passing percentages overall and for reading changed somewhat, from 65.1% and 74.9% respectively to 64.9% and 74.8% respectively. The percent passing math did not change.
+
+- Analysis of just Thomas High School before and after cleaning:
+
+
 
